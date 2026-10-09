@@ -1,0 +1,24 @@
+{
+  "model_tag": "moe_d20_e8_k2",
+  "repair_revision": "r5",
+  "public_download_available": false,
+  "scope": "Fingerprints of verified local final checkpoint bytes; optimizer/source-recovery files remain separate and are not claimed to be exported here.",
+  "checkpoints": {
+    "base": {
+      "step": 6641,
+      "tensor_count": 298,
+      "weights_sha256": "6e8113fbd5d035156bd987033351d3f5dddf7b7138f0513ea47178c195cbff73",
+      "metadata_sha256": "0e1b3acfab99d39421d300c0eab7ad5a0ffea987bd53aebcb53f5804eea26003",
+      "held_last_layer_router_sha256": "b9b6c037099ee5e9279aa5c8e1b7fb24b25cad981dd3914d7367de0c44b6723b",
+      "architecture_spec": "moe20_model_spec.json"
+    },
+    "sft": {
+      "step": 932,
+      "tensor_count": 298,
+      "weights_sha256": "61c0ea12dfed3fc3f98594b858c6541ea31dc7da28fbce5f32404958897d4145",
+      "metadata_sha256": "05e58d712d1abaee797311a7d05ba6d4549573043fca5c1267f10dd207b77b52",
+      "held_last_layer_router_sha256": "b9b6c037099ee5e9279aa5c8e1b7fb24b25cad981dd3914d7367de0c44b6723b",
+      "architecture_spec": "moe20_model_spec.json"
+    }
+  }
+}

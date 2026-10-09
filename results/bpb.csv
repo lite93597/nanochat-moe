@@ -1,0 +1,7 @@
+﻿model,split,bits_per_byte,checkpoint_phase,direction
+Dense12,train,0.86978,base,lower_is_better
+Dense12,val,0.869251,base,lower_is_better
+MoE12,train,0.854935,base,lower_is_better
+MoE12,val,0.85367,base,lower_is_better
+MoE20-R5,train,0.748115,base,lower_is_better
+MoE20-R5,val,0.74636,base,lower_is_better

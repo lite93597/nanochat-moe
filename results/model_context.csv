@@ -1,0 +1,4 @@
+﻿model,layers,width,heads,context_length,experts,top_k,pretrain_steps,positions_per_optimizer_step,configured_pretrain_positions,position_count_scope,sft_steps,sft_supervised_tokens,total_parameters,active_parameters_per_token,intervention,inference_gpu,inference_gpu_count
+Dense12,12,768,6,2048,0,0,1680,524288,880803840,sequence_positions_not_unique_corpus_tokens,931,,286261730,286261730,original_recipe,NVIDIA GeForce RTX 4060 Laptop GPU,1
+MoE12,12,768,6,2048,8,2,1680,524288,880803840,sequence_positions_not_unique_corpus_tokens,932,,371233250,286298594,original_recipe,NVIDIA RTX PRO 6000 Blackwell Server Edition,1
+MoE20-R5,20,1280,10,2048,8,2,6641,524288,3481796608,sequence_positions_not_unique_corpus_tokens,932,,1289852146,896636146,R5_donor0_upcycle_calibrated_intercept_held_router,NVIDIA RTX PRO 6000 Blackwell Server Edition,1

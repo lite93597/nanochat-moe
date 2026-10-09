@@ -1,0 +1,6 @@
+﻿model,hardware,gpus_used,batch_size,prompt_tokens,decode_tokens,decode_steps,decode_tokens_per_second,ttft_ms,tpot_ms,peak_vram_gib,prefill_tokens_per_second_batch1,comparison_group,mfu_percent,mbu_percent,scope
+Dense12,NVIDIA GeForce RTX 4060 Laptop GPU,1,1,256,64,63,55.3,22.098,18.096999999999998,0.8554768562316895,9568.3,local_4060_only,,,observed_deployment_not_causal_architecture_speedup
+MoE12,NVIDIA RTX PRO 6000 Blackwell Server Edition,1,1,256,64,63,90.9,12.578000000000001,10.964,1.172032356262207,20140.1,server_PRO6000_same_settings,,,observed_deployment_not_causal_architecture_speedup
+MoE12,NVIDIA RTX PRO 6000 Blackwell Server Edition,1,8,256,64,63,714.3,12.756,11.171000000000001,1.2431154251098633,20140.1,server_PRO6000_same_settings,,,observed_deployment_not_causal_architecture_speedup
+MoE20-R5,NVIDIA RTX PRO 6000 Blackwell Server Edition,1,1,256,64,63,58,19.902,17.246000000000002,4.142971515655518,12692.5,server_PRO6000_same_settings,,,observed_deployment_not_causal_architecture_speedup
+MoE20-R5,NVIDIA RTX PRO 6000 Blackwell Server Edition,1,8,256,64,63,454.3,20.209999999999997,17.535999999999998,4.356454372406006,12692.5,server_PRO6000_same_settings,,,observed_deployment_not_causal_architecture_speedup

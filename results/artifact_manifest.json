@@ -1,0 +1,116 @@
+{
+  "format": "nanochat-moe-public-artifacts-v1",
+  "scope": "distributed result tables, safe metadata, selected figures and result notes; fingerprints do not replace experiment reproduction",
+  "files": [
+    {
+      "path": "assets/expert_assignment.png",
+      "bytes": 304099,
+      "sha256": "43d0018624b8654dae882b005c0d48d68f4a922e9cfd8d24012ae7b73f635019"
+    },
+    {
+      "path": "assets/expert_assignment.svg",
+      "bytes": 91426,
+      "sha256": "fbd93213fdd15088c31d24694392175718f084c62e794356d26624cc29e545ad"
+    },
+    {
+      "path": "assets/prefill_decode.png",
+      "bytes": 170456,
+      "sha256": "5f2c4b7f323f8a2f73c2e033242ac661a33d9ad8c7b0c9faef5483fde47c9d5b"
+    },
+    {
+      "path": "assets/prefill_decode.svg",
+      "bytes": 90922,
+      "sha256": "74d0c6e0e886876082c97c6a30d4e3cd9995082c91f74fcf69bfb53c26e8f1fc"
+    },
+    {
+      "path": "assets/quality_overview.png",
+      "bytes": 166817,
+      "sha256": "aab77cf8bffec6ec1f5a786b615c7e8c0aed17b8893437a6652bbb9f4706f445"
+    },
+    {
+      "path": "assets/quality_overview.svg",
+      "bytes": 24910,
+      "sha256": "27b58e22e79daee69549a30bd3d5d44a1d176453f81af2a02651758039b64c6c"
+    },
+    {
+      "path": "assets/routing_recovery.png",
+      "bytes": 109787,
+      "sha256": "f91383f2a142d8ee3aef39567216c9221a84500cc1587c77ea107c8a02cbf8d0"
+    },
+    {
+      "path": "assets/routing_recovery.svg",
+      "bytes": 11098,
+      "sha256": "b0a1fb05462a67686d88c0ff8c029a4f77342023eb31ec293db39e9d4d734ef3"
+    },
+    {
+      "path": "docs/results-audit-notes.md",
+      "bytes": 1879,
+      "sha256": "b6229bfa54d17bca0789a93583aef6f1bfe9e9fe08eb6fa2c0e2d988cd9c4bcf"
+    },
+    {
+      "path": "results/bpb.csv",
+      "bytes": 309,
+      "sha256": "1d8a933b3e90ce6f4a0202777614435b232c7d5a76c30605cfc9c03c80c37e09"
+    },
+    {
+      "path": "results/chat_tasks.csv",
+      "bytes": 791,
+      "sha256": "18a5fddc8d8603f865152f61b7c1782ec4cbae7404495c0e576c33f090e1ee27"
+    },
+    {
+      "path": "results/checkpoint_identity.json",
+      "bytes": 1101,
+      "sha256": "f043e3ee56f3fa6d8510c38c5adb95760f481c5873ae90024db7c70a36f34969"
+    },
+    {
+      "path": "results/core_tasks.csv",
+      "bytes": 7369,
+      "sha256": "ed34b9a2bae0f1dac5a3dc64c3182a2b6c991dc18d5cf10f110fe8c5c8ea07a6"
+    },
+    {
+      "path": "results/inference_benchmark.csv",
+      "bytes": 1238,
+      "sha256": "44b7361bfc1ec36b2924ca6a4be20b03b5a570f8b1bfd1eecc71dfe8d018c248"
+    },
+    {
+      "path": "results/model_context.csv",
+      "bytes": 844,
+      "sha256": "34681cae68c2eda4b410374392c7b700dd4f207ae281b31651bb4c96f754947d"
+    },
+    {
+      "path": "results/moe20_model_spec.json",
+      "bytes": 980,
+      "sha256": "61d238bd5ec5049849bebbfdd8a26b2ef3ce96b74d0b8c60c9839026559bbb06"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 8191,
+      "sha256": "49f00a72875259cc6938e8931ea4f827649892a24c1969aa9363055a16c0867f"
+    },
+    {
+      "path": "results/routing_expert_ratios.csv",
+      "bytes": 3809472,
+      "sha256": "07e6bdbf2ac5060bc54b102f6be803d985f248126e6f282af8f99105e4146911"
+    },
+    {
+      "path": "results/routing_layer_balance.csv",
+      "bytes": 400565,
+      "sha256": "9300135f53585f610b8731a867e68e0a9f0d298c782afcf0dff046073ddd4cbe"
+    },
+    {
+      "path": "results/short_prefill_zero_hits.csv",
+      "bytes": 603,
+      "sha256": "55a9dd321f1b1443efcdc901134f8ea3e71bdebb127121d32f4b9ff81802e534"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 9334,
+      "sha256": "42dea8482aba98738799f0505835886d9dd928784ac806c19d5d3383405d42d9"
+    },
+    {
+      "path": "results/summary_metrics.csv",
+      "bytes": 1768,
+      "sha256": "b331be2556df06abd340f0ba34b4761f3e52d9a94f41f71cc7492e3c4e9a4c97"
+    }
+  ]
+}

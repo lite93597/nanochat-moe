@@ -1,0 +1,294 @@
+{
+  "format": "nanochat-moe-public-results-v1",
+  "models": {
+    "Dense12": {
+      "layers": 12,
+      "width": 768,
+      "heads": 6,
+      "context_length": 2048,
+      "experts": 0,
+      "top_k": 0,
+      "pretrain_steps": 1680,
+      "positions_per_optimizer_step": 524288,
+      "configured_pretrain_positions": 880803840,
+      "position_count_scope": "sequence_positions_not_unique_corpus_tokens",
+      "sft_steps": 931,
+      "sft_supervised_tokens": null,
+      "total_parameters": 286261730,
+      "active_parameters_per_token": 286261730,
+      "intervention": "original_recipe",
+      "inference_gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "inference_gpu_count": 1,
+      "metrics": {
+        "CORE": {
+          "value": 0.127070915673951,
+          "unit": "unweighted_centered_task_mean",
+          "phase": "base",
+          "direction": "higher_is_better"
+        },
+        "BPB_train": {
+          "value": 0.86978,
+          "unit": "bits_per_byte",
+          "phase": "base",
+          "direction": "lower_is_better"
+        },
+        "BPB_val": {
+          "value": 0.869251,
+          "unit": "bits_per_byte",
+          "phase": "base",
+          "direction": "lower_is_better"
+        },
+        "ARC-Easy": {
+          "value": 0.3632154882154882,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "ARC-Challenge": {
+          "value": 0.31399317406143346,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "MMLU": {
+          "value": 0.31533969520011396,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "GSM8K": {
+          "value": 0.00530705079605762,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "HumanEval": {
+          "value": 0.09146341463414634,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        }
+      }
+    },
+    "MoE12": {
+      "layers": 12,
+      "width": 768,
+      "heads": 6,
+      "context_length": 2048,
+      "experts": 8,
+      "top_k": 2,
+      "pretrain_steps": 1680,
+      "positions_per_optimizer_step": 524288,
+      "configured_pretrain_positions": 880803840,
+      "position_count_scope": "sequence_positions_not_unique_corpus_tokens",
+      "sft_steps": 932,
+      "sft_supervised_tokens": null,
+      "total_parameters": 371233250,
+      "active_parameters_per_token": 286298594,
+      "intervention": "original_recipe",
+      "inference_gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "inference_gpu_count": 1,
+      "metrics": {
+        "CORE": {
+          "value": 0.12828829262373873,
+          "unit": "unweighted_centered_task_mean",
+          "phase": "base",
+          "direction": "higher_is_better"
+        },
+        "BPB_train": {
+          "value": 0.854935,
+          "unit": "bits_per_byte",
+          "phase": "base",
+          "direction": "lower_is_better"
+        },
+        "BPB_val": {
+          "value": 0.85367,
+          "unit": "bits_per_byte",
+          "phase": "base",
+          "direction": "lower_is_better"
+        },
+        "ARC-Easy": {
+          "value": 0.3771043771043771,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "ARC-Challenge": {
+          "value": 0.3191126279863481,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "MMLU": {
+          "value": 0.3169064235863837,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "GSM8K": {
+          "value": 0.006065200909780136,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "HumanEval": {
+          "value": 0.07926829268292683,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        }
+      }
+    },
+    "MoE20-R5": {
+      "layers": 20,
+      "width": 1280,
+      "heads": 10,
+      "context_length": 2048,
+      "experts": 8,
+      "top_k": 2,
+      "pretrain_steps": 6641,
+      "positions_per_optimizer_step": 524288,
+      "configured_pretrain_positions": 3481796608,
+      "position_count_scope": "sequence_positions_not_unique_corpus_tokens",
+      "sft_steps": 932,
+      "sft_supervised_tokens": null,
+      "total_parameters": 1289852146,
+      "active_parameters_per_token": 896636146,
+      "intervention": "R5_donor0_upcycle_calibrated_intercept_held_router",
+      "inference_gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "inference_gpu_count": 1,
+      "metrics": {
+        "CORE": {
+          "value": 0.2242742636653445,
+          "unit": "unweighted_centered_task_mean",
+          "phase": "base",
+          "direction": "higher_is_better"
+        },
+        "BPB_train": {
+          "value": 0.748115,
+          "unit": "bits_per_byte",
+          "phase": "base",
+          "direction": "lower_is_better"
+        },
+        "BPB_val": {
+          "value": 0.74636,
+          "unit": "bits_per_byte",
+          "phase": "base",
+          "direction": "lower_is_better"
+        },
+        "ARC-Easy": {
+          "value": 0.5433501683501684,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "ARC-Challenge": {
+          "value": 0.44112627986348124,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "MMLU": {
+          "value": 0.34496510468594216,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "GSM8K": {
+          "value": 0.04245640636846096,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        },
+        "HumanEval": {
+          "value": 0.13414634146341464,
+          "unit": "fraction_correct",
+          "phase": "sft",
+          "direction": "higher_is_better"
+        }
+      }
+    }
+  },
+  "evaluation": {
+    "core_tasks": 22,
+    "core_examples": 91037,
+    "chat_examples": {
+      "ARC-Easy": 2376,
+      "ARC-Challenge": 1172,
+      "MMLU": 14042,
+      "GSM8K": 1319,
+      "HumanEval": 164
+    },
+    "moe20_completed_stages": 31,
+    "core_aggregation": "unweighted_mean_of_chance_centered_task_scores",
+    "chat_accuracy": "correct_divided_by_full_examples",
+    "routing_files": 30,
+    "routing_report_objects": 31
+  },
+  "training": {
+    "pretraining_dataset": "karpathy/climbmix-400b-shuffle",
+    "tokenizer": "rustbpe BPE + tiktoken",
+    "vocabulary_size": 32768,
+    "sft_mixture": "smol-smoltalk train + MMLU auxiliary_train x3 + GSM8K train x4",
+    "sft_prepared_conversations": 789759,
+    "parallelism": "replicated_models_data_parallel_with_distributed_optimizer_updates",
+    "training_world_size": 8,
+    "expert_parallel": false,
+    "positions_scope": "configured_sequence_positions_not_unique_corpus_tokens"
+  },
+  "repair_diagnostics": {
+    "before": {
+      "stage": "pretrain_before_repair",
+      "step": 3100,
+      "layer_zero_based": 19,
+      "included_forward_positions": 524288,
+      "load_cv": 1.7266520522783335,
+      "top_two_assignment_share": 0.997654914855957,
+      "unused_experts": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    "final": [
+      {
+        "stage": "pretrain",
+        "step": 6641,
+        "layer_zero_based": 19,
+        "included_supervised_forward_positions": 524288,
+        "assignment_count": 1048576,
+        "load_cv": 0.12817846482836626,
+        "minimum_assignment_share": 0.10413455963134766,
+        "unused_experts": []
+      },
+      {
+        "stage": "sft",
+        "step": 932,
+        "layer_zero_based": 19,
+        "included_supervised_forward_positions": 315891,
+        "assignment_count": 631782,
+        "load_cv": 0.15549912446094388,
+        "minimum_assignment_share": 0.10187691323906031,
+        "unused_experts": []
+      }
+    ],
+    "comparison_scope": "distinct_training_windows_not_causal_ablation_or_continuous_curve"
+  },
+  "limitations": [
+    "MoE20 changes depth, width, training amount and repair jointly.",
+    "SFT monitoring uses an upstream validation pool overlapping some final MMLU/GSM8K test examples; no gradients, best-checkpoint selection or early stopping on those examples, but test is not untouched.",
+    "No full corpus/benchmark contamination audit or multi-seed significance claims.",
+    "Dense inference hardware differs from MoE inference hardware.",
+    "Batch-8 inference repeats one prompt, with aggregate throughput.",
+    "Active-parameter count is an architecture accounting convention, not exact per-token FLOPs.",
+    "SFT supervised-token accumulation unavailable; empty CSV fields are not zero.",
+    "Short-prefill measured expert zero hits remain visible."
+  ],
+  "weights": {
+    "public_download_available": false,
+    "local_base_and_sft_verification_completed": true,
+    "github_bundles_model_binaries": false
+  }
+}

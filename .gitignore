@@ -1,0 +1,51 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+credentials.json
+.claude/
+.codex/
+
+# Trained models, datasets, downloaded runtimes and local run state
+*.pt
+*.pth
+*.safetensors
+*.parquet
+*.arrow
+*.bin
+*.whl
+*.tar
+*.tar.gz
+*.zip
+*.part
+checkpoints/
+models/
+datasets/
+data/
+outputs/
+reports/
+localoutputs/
+wheelhouse/
+wandb/
+dist/
+build/
+*.log
+
+# Evaluation CSVs and figures under results/ and assets/ are intentional.

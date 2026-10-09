@@ -1,0 +1,35 @@
+{
+  "model_tag": "moe_d20_e8_k2",
+  "architecture": {
+    "n_layer": 20,
+    "n_embd": 1280,
+    "n_head": 10,
+    "n_kv_head": 10,
+    "sequence_len": 2048,
+    "vocab_size": 32768,
+    "window_pattern": "L",
+    "moe_num_experts": 8,
+    "moe_top_k": 2,
+    "moe_every": 2,
+    "moe_hidden_mult": 2.0
+  },
+  "checkpoints": {
+    "base": 6641,
+    "sft": 932
+  },
+  "routing_control": {
+    "kind": "last_layer_router_intercept_held_router_weight",
+    "layer": 19,
+    "rate": 0.5,
+    "max_step": 0.05,
+    "score": "router_logits_plus_bias_softmax",
+    "gate": "biased_router_probs_renormalized",
+    "feedback": "global_optimizer_step_probability_proportional_clipped_centered",
+    "aux": "biased_router_probs_switch_0.01",
+    "eval": "frozen",
+    "calibration": "training_window_softmax_intercept_newton_float64",
+    "hold_layer": 19,
+    "hold_policy": "restore_after_real_optimizer_step",
+    "optimizer_state_policy": "real_gradients_moments_and_step_advance"
+  }
+}

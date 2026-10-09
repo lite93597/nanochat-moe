@@ -1,0 +1,11 @@
+name: Research or feature proposal
+description: Propose a measurable improvement to training, routing, evaluation, or inference.
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change, why, and how would you verify it?
+    validations:
+      required: true
